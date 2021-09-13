@@ -1,4 +1,4 @@
-# this docker (mysql + nginx) docker-compose file is based on 
+# this docker (mysql + nginx) docker-compose file is based on // 
 # https://dockerlabs.collabnix.com/intermediate/workshop/DockerCompose/Create_first_docker-compose_file_with_ngnix_and_mysql.html
 
 version: '3.1'

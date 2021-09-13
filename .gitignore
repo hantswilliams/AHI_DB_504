@@ -6,6 +6,6 @@ db_root_password.txt
 **/db_root_password.txt
 
 
-# DS store 
+# DS store / 
 *.DS_Store
 **/.DS_Store
