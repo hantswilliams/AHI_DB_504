@@ -18,7 +18,7 @@ import pandas as pd
 
 
 
-loadUsers = pd.read_csv('/Users/hantswilliams/Dropbox/Biovirtua/Python_Projects/ahi/AHI_DB_504/azureMySQL_setup/pythonScripts_CodeCreation/ahi_cohort_2022.csv')
+loadUsers = pd.read_csv('/Users/hantswilliams/Dropbox/Biovirtua/Python_Projects/ahi/AHI_DB_504/azureMySQL_setup/pythonScripts_userManagement/ahi_cohort_2022.csv')
 
 loadUsers['un'] = loadUsers['userEmail'].str.split('@').str[0]
 loadUsers['un'] = loadUsers['un'].str.lower()
@@ -34,12 +34,9 @@ userlist = list(loadUsers['un'])
 
 
 rule = """
-
 CREATE USER 'USERNAME'@'%' IDENTIFIED BY 'USERPASSWORD';
 GRANT ALL PRIVILEGES ON ahi.* TO 'USERNAME'@'%';
-FLUSH PRIVILEGES;
- 
-"""
+FLUSH PRIVILEGES;"""
 
 
 
@@ -73,9 +70,9 @@ modedAddString = "\n".join(modedAdd)
 
 
 #open and delete existing file
-open("/Users/hantswilliams/Dropbox/Biovirtua/Python_Projects/ahi/AHI_DB_504/azureMySQL_setup/pythonScripts_CodeCreation/userCreation.sql", 'w').close()
+open("/Users/hantswilliams/Dropbox/Biovirtua/Python_Projects/ahi/AHI_DB_504/azureMySQL_setup/pythonScripts_userManagement/userCreation.sql", 'w').close()
 #write the new rules to it
-f= open("/Users/hantswilliams/Dropbox/Biovirtua/Python_Projects/ahi/AHI_DB_504/azureMySQL_setup/pythonScripts_CodeCreation/userCreation.sql","w+")
+f= open("/Users/hantswilliams/Dropbox/Biovirtua/Python_Projects/ahi/AHI_DB_504/azureMySQL_setup/pythonScripts_userManagement/userCreation.sql","w+")
 f.write(modedAddString)
 f.close() 
 

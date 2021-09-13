@@ -29,3 +29,12 @@ SET global log_output = 'table';
 ## Running remote script 
 - Try this: 
 ```mysql -u root -p -h 20.62.193.224 --port=3305  < "userCreation.sql"```
+
+
+
+## ENV file within pythonScripts_dataCreation
+- .env == 
+    ```
+        mysqluser=
+        mysqlpassword=
+    ```
