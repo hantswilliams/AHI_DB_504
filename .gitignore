@@ -9,3 +9,8 @@ db_root_password.txt
 # DS store / 
 *.DS_Store
 **/.DS_Store
+
+
+# .ENV files / 
+.ENV
+**/.ENV
