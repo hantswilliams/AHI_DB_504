@@ -19,7 +19,7 @@ MYSQL_USER = 'inserthere'
 MYSQL_PASSWORD = 'inserthere'
 MYSQL_DATABASE = 'ahi'
 
-connection_string = f'mysql+pymysql://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOSTNAME}/{MYSQL_DATABASE}'
+connection_string = f'mysql+pymysql://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOSTNAME}:3305/{MYSQL_DATABASE}'
 engine = create_engine(connection_string)
 
 TABLENAME = MYSQL_USER + 'fakeTableAssignment1'
