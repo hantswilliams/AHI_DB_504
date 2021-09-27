@@ -15,6 +15,10 @@ CREATE USER 'andrewhuang'@'%' IDENTIFIED BY 'andrewhuang2021';
 GRANT ALL PRIVILEGES ON ahi.* TO 'andrewhuang'@'%';
 FLUSH PRIVILEGES;
 
+CREATE USER 'anishabasil'@'%' IDENTIFIED BY 'anishabasil2021';
+GRANT ALL PRIVILEGES ON ahi.* TO 'anishabasil'@'%';
+FLUSH PRIVILEGES;
+
 CREATE USER 'ashleychinnici'@'%' IDENTIFIED BY 'ashleychinnici2021';
 GRANT ALL PRIVILEGES ON ahi.* TO 'ashleychinnici'@'%';
 FLUSH PRIVILEGES;
