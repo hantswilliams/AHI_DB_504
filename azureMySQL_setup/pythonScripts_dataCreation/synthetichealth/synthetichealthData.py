@@ -43,6 +43,10 @@ DROP TABLE IF EXISTS supplies;
 
 
 
+with engine.connect() as con:
+    con.execute('ALTER TABLE `example_table` ADD PRIMARY KEY (`ID_column`);')
+
+
 """
 
 import pandas as pd 

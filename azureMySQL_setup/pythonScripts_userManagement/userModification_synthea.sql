@@ -32,7 +32,7 @@ FLUSH PRIVILEGES;
 GRANT select, show view ON synthea.* TO 'elizabethshi'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view ON synthea.* TO 'emadoddintaherinia'@'%';
+GRANT select, show view ON synthea.* TO 'emadoddintaherinia'@'23.323.242';
 FLUSH PRIVILEGES;
 
 GRANT select, show view ON synthea.* TO 'fahadabdu'@'%';
