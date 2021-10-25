@@ -43,12 +43,54 @@ ON allergies.patient = patients.id;
 """
 
 
-mergedAllergies_patients = allergies.merge(patients, how='left', )
+## V1 
+mergedAllergies_patients = allergies.merge(patients, 
+                                           how='left', 
+                                           left_on='PATIENT', 
+                                           right_on='Id')
+
+mergedAllergies_patients = allergies.merge(patients, 
+                                           how='left', 
+                                           left_on='PATIENT', 
+                                           suffixes=('_tab1', '_tab2'),
+                                           right_on='Id')
+## V2 
+mergedAllergies_patients = pd.merge(allergies, 
+                                    patients, 
+                                    how='left', 
+                                    left_on='PATIENT', 
+                                    right_on='Id')
+
+
+"""
+
+SELECT *
+FROM patients
+LEFT JOIN allergies 
+ON allergies.patient = patients.id;
+
+"""
+
+mergedPatients_allergies = pd.merge(patients, 
+                                    allergies,
+                                    how='left', 
+                                    left_on='Id',
+                                    right_on='PATIENT')
 
 
 
+#### CONCAT - how do we then merge 2 tables together with same columns / 
+## give us additional rows 
+
+dataframe1 = patients.sample(10)
+dataframe2 = patients.sample(10)
+
+dataframe3 = pd.concat([dataframe1, dataframe2])
 
 
+### creating an error 
+dataframe3 = pd.concat([dataframe1, allergies])
+### never do this 
 
 
 
