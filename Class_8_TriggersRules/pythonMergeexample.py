@@ -94,6 +94,26 @@ dataframe3 = pd.concat([dataframe1, allergies])
 
 
 
+### PYTHON FUNCTION 
+
+
+def gendermodifier(varname):
+    dataframe1['GENDER'] = 'the gender of this person is: ', dataframe1['GENDER']
+
+
+gendermodifier()
+
+
+    
+
+
+
+
+
+
+
+
+
 
 
 

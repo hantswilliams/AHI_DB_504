@@ -45,9 +45,9 @@ modedAddString = "\n".join(modedAdd)
 
 
 #open and delete existing file
-open("/Users/hantswilliams/Dropbox/Biovirtua/Python_Projects/ahi/AHI_DB_504/azureMySQL_setup/pythonScripts_userManagement/userModification_synthea.sql", 'w').close()
+open("/Users/hantswilliams/Dropbox/Biovirtua/Python_Projects/ahi/AHI_DB_504/azureMySQL_setup/pythonScripts_userManagement/userModification_synthea_1.sql", 'w').close()
 #write the new rules to it
-f= open("/Users/hantswilliams/Dropbox/Biovirtua/Python_Projects/ahi/AHI_DB_504/azureMySQL_setup/pythonScripts_userManagement/userModification_synthea.sql","w+")
+f= open("/Users/hantswilliams/Dropbox/Biovirtua/Python_Projects/ahi/AHI_DB_504/azureMySQL_setup/pythonScripts_userManagement/userModification_synthea_1.sql","w+")
 f.write(modedAddString)
 f.close() 
 
