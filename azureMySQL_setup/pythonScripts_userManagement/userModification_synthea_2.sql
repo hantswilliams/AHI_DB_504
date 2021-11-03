@@ -1,111 +1,111 @@
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'alejandroherrera'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'alejandroherrera'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'alvindevasia'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'alvindevasia'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'amandapower'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'amandapower'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'andrewhuang'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'andrewhuang'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'ashleychinnici'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'ashleychinnici'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'camilasaldivarjaquez'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'camilasaldivarjaquez'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'chelseatwan'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'chelseatwan'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'christiansaintlouis'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'christiansaintlouis'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'cindymei'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'cindymei'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'coreywiley'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'coreywiley'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'elizabethshi'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'elizabethshi'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'emadoddintaherinia'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'emadoddintaherinia'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'fahadabdu'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'fahadabdu'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'faryalshahid'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'faryalshahid'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'ginatebaldi'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'ginatebaldi'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'hantswilliams'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'hantswilliams'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'izuchukwumatthew'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'izuchukwumatthew'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'jeremyyong'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'jeremyyong'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'jiayingxing'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'jiayingxing'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'kaieebrown'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'kaieebrown'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'kallistatong'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'kallistatong'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'mahbubasultana'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'mahbubasultana'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'manleenchhabra'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'manleenchhabra'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'nathalialadino'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'nathalialadino'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'nirlamerantus'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'nirlamerantus'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'pedrorosado'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'pedrorosado'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'rajivlajmi'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'rajivlajmi'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'ramatumuhammed'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'ramatumuhammed'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'samanthabenjamin1'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'samanthabenjamin1'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'sayedakhan'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'sayedakhan'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'shuwentan'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'shuwentan'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'sophiaperazabonilla'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'sophiaperazabonilla'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'theresaoriental'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'theresaoriental'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'victoriarodriguezsilva'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'victoriarodriguezsilva'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'williamruan'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'williamruan'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'yiyiwang1'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'yiyiwang1'@'%';
 FLUSH PRIVILEGES;
 
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'ardismoorehead'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'ardismoorehead'@'%';
 FLUSH PRIVILEGES;

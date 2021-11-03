@@ -1,5 +1,10 @@
 import pandas as pd
 
+### note - privileges 
+### and for each user, also add in ALTER ROUTINE, CREATE ROUTINE
+
+### SET GLOBAL log_bin_trust_function_creators = 1; 
+
 
 loadUsers = pd.read_csv('/Users/hantswilliams/Dropbox/Biovirtua/Python_Projects/ahi/AHI_DB_504/azureMySQL_setup/pythonScripts_userManagement/ahi_cohort_2022.csv')
 
@@ -14,7 +19,7 @@ userlist = list(loadUsers['un'])
 
 
 rule = """
-GRANT select, show view, trigger, create, event, execute, insert ON synthea.* TO 'USERNAME'@'%';
+GRANT select, show view, trigger, create, event, execute, insert, alter routine, create routine ON synthea.* TO 'USERNAME'@'%';
 FLUSH PRIVILEGES;"""
 
 
